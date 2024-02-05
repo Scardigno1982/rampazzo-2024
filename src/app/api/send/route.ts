@@ -3,15 +3,15 @@ import { Resend } from 'resend';
 import * as React from 'react'
 import { NextRequest } from 'next/server';
 
-const resend = new Resend(process.env.re_AfpmdQxn_24kecdbNERU6Yvwzm89Gh2y2);
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(req: NextRequest) {
   const { name, phone } = await req.json();
   try {
     const data = await resend.emails.send({
-      from: `Fernando Rampazzo <estudiorampazzo@gmail.com>`,
-      to: `estudiorampazzo@gmail.com`,
-      subject: 'Alguien acaba de dejar su contacto para que le devuelvan la llamada',
+      from: `Ольга Драпеко <email@olgadrapeko.ru>`,
+      to: `izraolya@mail.ru`,
+      subject: 'Someone just left their contact for a callback',
       text: '',
       react: EmailTemplate({ name, phone }),
     });
