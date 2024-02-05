@@ -26,7 +26,7 @@ const notFound = () => {
           </p>
           <Link
             href="/"
-            className="text-[#962C52] font-bold md:text-[1.66vh] md:leading-[2.22vh]"
+            className="text-[black] font-bold md:text-[1.66vh] md:leading-[2.22vh]"
           >
             Ir a la página de inicio
 

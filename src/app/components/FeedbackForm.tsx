@@ -48,7 +48,7 @@ const FeedbackForm = () => {
       }),
     }).then(() => {
       // Toast notification
-      toast.success("Спасибо! Мы свяжемся с вами в ближайшее время.");
+      toast.success("¡Gracias! Nos comunicaremos con usted en breve.");
     });
 
     reset();
