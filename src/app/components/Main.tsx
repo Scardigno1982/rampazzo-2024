@@ -120,13 +120,15 @@ const Main = () => {
         <div className="md:col-span-2 col-span-3">
           <div className="md:relative">
             <div className="z-[22] md:absolute pb-[48px] md:pb-0">
-              <Image
-                src={PicMain}
-                alt="main portrait"
-                width={600}
-                className="w-full h-[264px] md:w-[20.72vw] md:h-[61.11vh] object-cover rounded-md "
-                style={objectPositionStyle}
-              />
+            <Image
+              src={PicMain}
+              alt="main portrait"
+              width={600}
+              className="w-full h-[264px] md:w-[20.72vw] md:h-[61.11vh] object-cover rounded-md mx-auto md:hidden"
+              style={{ objectPosition: 'center bottom' }}
+            />
+
+
             </div>
             <div className="hidden md:block bg-[#D8CACF] md:absolute md:top-[1.85vh] md:left-[1.04vw] md:w-[20.72vw] md:h-[61.11vh] rounded-md "></div>
           </div>

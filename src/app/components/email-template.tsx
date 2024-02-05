@@ -12,17 +12,17 @@ export const EmailTemplate: React.FC<Readonly<EmailTemplateProps>> = ({
   <body className="bg-gray-100">
     <div className="max-w-2xl mx-auto mt-8 p-6 bg-white rounded shadow-md text-center">
       <h1 className="text-2xl font-bold mb-4">
-        Кто-то с именем <span className="text-blue-500">{name}</span>!
+      Alguien con un nombre <span className="text-blue-500">{name}</span>!
       </h1>
       <div className="text-lg">
         <p>
-         Оставил нам свои контакты:
+        Déjanos tus contactos:
           <span className="font-semibold text-blue-500">{phone}</span>
         </p>
       </div>
       <div className="text-lg">
         <p>
-         Пожалуйста, свяжитесь с ним.
+        Por favor contacte con él.
         </p>
       </div>
     </div>

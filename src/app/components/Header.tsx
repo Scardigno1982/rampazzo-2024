@@ -176,36 +176,61 @@ const Header = () => {
                   <div>
                     <div className="pb-1">
                       <Link
-                        href={`/corporation`}
+                        href={`/jubilaciones`}
                         onClick={() => setisClick(!isClick)}
                         className=""
                       >
                         <p className={`py-2 font-semibold text-[#962C52]`}>
-                          Entidades legales
+                          Jubilaciones
+                        </p>
+                      </Link>
+                    </div>
+
+
+                    <div className="pb-1">
+                      <Link
+                        href={`/laboral`}
+                        onClick={() => setisClick(!isClick)}
+                        className=""
+                      >
+                        <p className={`py-2 font-semibold text-[#962C52]`}>
+                          Laboral
+                        </p>
+                      </Link>
+                    </div>
+
+                    <div className="pb-1">
+                      <Link
+                        href={`/servicios`}
+                        onClick={() => setisClick(!isClick)}
+                        className=""
+                      >
+                        <p className={`py-2 font-semibold text-[#962C52]`}>
+                          Servicios
                         </p>
                       </Link>
                     </div>
                     <div className=" border-b-[1px] border-[#F0F0F5] mb-2">
-                      <Link
+                      {/* <Link
                         href={`/outsourcing`}
                         onClick={() => setisClick(!isClick)}
                       >
                         <p className="pb-2">
                           Soporte legal para empresas (outsourcing)
                         </p>
-                      </Link>
+                      </Link> */}
                     </div>
-                    <div className=" border-b-[1px] border-[#F0F0F5]">
+                    {/* <div className=" border-b-[1px] border-[#F0F0F5]">
                       <Link
                         href={`/mediation`}
                         onClick={() => setisClick(!isClick)}
                       >
                         <p className="pb-2">Resolución de disputas y mediación</p>
                       </Link>
-                    </div>
+                    </div> */}
                   </div>
                   <div>
-                    <div className="pb-1">
+                    {/* <div className="pb-1">
                       <p className="py-2 font-semibold text-[#FFD700]">
                       Para individuos
                       </p>
@@ -219,15 +244,15 @@ const Header = () => {
                         Servicios legales para particulares.
                         </p>
                       </Link>
-                    </div>
+                    </div> */}
                   </div>
                   <div>
-                    <div className="pb-">
+                    {/* <div className="pb-">
                       <p className="py-2 font-semibold text-[#FFD700]">
                       Bancarrota
                       </p>
-                    </div>
-                    <div className=" border-b-[1px] border-[#F0F0F5]">
+                    </div> */}
+                    {/* <div className=" border-b-[1px] border-[#F0F0F5]">
                       <Link
                         href={`/bankruptcy`}
                         onClick={() => setisClick(!isClick)}
@@ -236,10 +261,10 @@ const Header = () => {
                         Apoyo legal en caso de quiebra
                         </p>
                       </Link>
-                    </div>
+                    </div> */}
                   </div>
                   <div>
-                    <p
+                    {/* <p
                       className="py-3 font-semibold text-[#FFD700]"
                       onClick={() => {
                         if (pathname == "/") {
@@ -252,7 +277,7 @@ const Header = () => {
                       }}
                     >
                       Acerca de mí
-                    </p>
+                    </p> */}
                   </div>
                 </div>
                 <div className="flex flex-col gap-1 ">
