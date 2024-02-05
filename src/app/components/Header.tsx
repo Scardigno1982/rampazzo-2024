@@ -19,22 +19,22 @@ import { aboutMeRef } from "./About";
 const Header = () => {
   const router = useRouter();
   const pathname = usePathname();
-  const contactPhone = "+7 923 341 32 66";
-  const contactEmail = "oa.drapeko@gmail.com";
+  const contactPhone = "+5491121914149";
+  const contactEmail = "estudiorampazzo@gmail.com";
 
   const [isDropdown, setisDropdown] = useState(false);
   const [isClick, setisClick] = useState(false);
   const [scrolling, setScrolling] = useState(true);
 
   useEffect(() => {
-    let prevScrollPos = window.scrollY; // Определяем prevScrollPos внутри компонента
+    let prevScrollPos = window.scrollY; // Definiendo prevScrollPos dentro del componente
 
     const handleScroll = () => {
       const currentScrollPos = window.scrollY;
       setisDropdown(false);
 
       setScrolling(prevScrollPos > currentScrollPos || currentScrollPos < 10);
-      prevScrollPos = currentScrollPos; // Обновляем prevScrollPos
+      prevScrollPos = currentScrollPos; // Actualizar prevScrollPos
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -44,20 +44,20 @@ const Header = () => {
     };
   }, []);
   useEffect(() => {
-    // Функция-обработчик события для закрытия меню при клике вне его области
+    // Función de controlador de eventos para cerrar el menú cuando se hace clic fuera de su área
     const handleOutsideClick = (e: any) => {
       const menuContainer = document.getElementById("dropdown-menu");
 
-      // Проверка, был ли клик выполнен вне меню
+      // Comprobar si el clic se realizó fuera del menú
       if (menuContainer && !menuContainer.contains(e.target)) {
         setisDropdown(false);
       }
     };
 
-    // Добавление обработчика событий при монтировании компонента
+    // Agregar un controlador de eventos al montar un componente
     document.addEventListener("mousedown", handleOutsideClick);
 
-    // Удаление обработчика событий при размонтировании компонента
+    // Eliminación del controlador de eventos cuando el componente está desmontado
     return () => {
       document.removeEventListener("mousedown", handleOutsideClick);
     };
@@ -78,12 +78,12 @@ const Header = () => {
     setisClick(!isClick);
   };
   const socialArray = [
-    { src: IconTelegram, alt: "Telegram", link: "https://t.me/olga_drapeko" },
-    { src: IconWhatsapp, alt: "Whatsapp", link: "https://wa.me/79233413266" },
+    { src: IconTelegram, alt: "Telegram", link: "#" },
+    { src: IconWhatsapp, alt: "Whatsapp", link: "https://api.whatsapp.com/send?phone=+5491121914149&text=Contacto%20WEB%20-%20Estoy%20Interesado%20en%20las%20jubilaciones%20y%20reajustes" },
   ];
   const menuArray = [
     {
-      title: "Обо мне",
+      title: "Acerca de mí",
       OnClick: (e: any) => {
         e.preventDefault();
         if (pathname == "/") {
@@ -94,7 +94,7 @@ const Header = () => {
       },
     },
     {
-      title: "Контакты",
+      title: "Contactos",
       OnClick: (e: any) => {
         e.preventDefault();
         if (pathname == "/") {
@@ -107,8 +107,8 @@ const Header = () => {
   ];
   const mainLogo = [
     {
-      name: "Ольга Драпеко",
-      job: "Юрист",
+      name: "Fernando Rampazzo",
+      job: "Abogado",
       OnClick: (e: any) => {
         e.preventDefault();
         if (pathname == "/") {
@@ -122,14 +122,14 @@ const Header = () => {
 
   return (
     <div className="absolute">
-      <main
+      <main style={{ background: '#000', color: '#fff' }}
         className={` bg-white z-[33] fixed w-full transition-transform transform border-b-[0.09vh] border-[#F0F0F5] ${
           (scrolling && !isClick) || isClick
             ? "translate-y-0"
             : "-translate-y-full"
         }`}
       >
-        <header
+        <header style={{ background: '#000', color: '#fff' }}
           className={`flex justify-between mx-4 md:mx-[12.5vw] my-[40px] md:my-0 text-[#1B1743]`}
         >
           <div className="flex items-center">
@@ -141,7 +141,7 @@ const Header = () => {
                 }}
                 className=" cursor-pointer"
               >
-                <p className="text-[#962C52] text-xs leading-4 md:text-[1.11vh] md:leading-[1.38vh] ">
+                <p className="text-[#FFD700] text-xs leading-4 md:text-[1.11vh] md:leading-[1.38vh] ">
                   {item.job}
                 </p>
                 <p className=" font-bold text-[22px] leading-7 md:text-[2.03vh] md:leading-[2.59vh]">
@@ -181,7 +181,7 @@ const Header = () => {
                         className=""
                       >
                         <p className={`py-2 font-semibold text-[#962C52]`}>
-                          Юридическим лицам
+                          Entidades legales
                         </p>
                       </Link>
                     </div>
@@ -191,7 +191,7 @@ const Header = () => {
                         onClick={() => setisClick(!isClick)}
                       >
                         <p className="pb-2">
-                          Юридическое сопровождение бизнеса (аутсорсинг)
+                          Soporte legal para empresas (outsourcing)
                         </p>
                       </Link>
                     </div>
@@ -200,14 +200,14 @@ const Header = () => {
                         href={`/mediation`}
                         onClick={() => setisClick(!isClick)}
                       >
-                        <p className="pb-2">Разрешение споров и медиация</p>
+                        <p className="pb-2">Resolución de disputas y mediación</p>
                       </Link>
                     </div>
                   </div>
                   <div>
                     <div className="pb-1">
-                      <p className="py-2 font-semibold text-[#962C52]">
-                        Физическим лицам
+                      <p className="py-2 font-semibold text-[#FFD700]">
+                      Para individuos
                       </p>
                     </div>
                     <div className=" border-b-[1px] border-[#F0F0F5]">
@@ -216,15 +216,15 @@ const Header = () => {
                         onClick={() => setisClick(!isClick)}
                       >
                         <p className="pb-2">
-                          Юридические услуги для частных лиц
+                        Servicios legales para particulares.
                         </p>
                       </Link>
                     </div>
                   </div>
                   <div>
                     <div className="pb-">
-                      <p className="py-2 font-semibold text-[#962C52]">
-                        Банкротство
+                      <p className="py-2 font-semibold text-[#FFD700]">
+                      Bancarrota
                       </p>
                     </div>
                     <div className=" border-b-[1px] border-[#F0F0F5]">
@@ -233,14 +233,14 @@ const Header = () => {
                         onClick={() => setisClick(!isClick)}
                       >
                         <p className="pb-2">
-                          Юридическое сопровождение банкротства
+                        Apoyo legal en caso de quiebra
                         </p>
                       </Link>
                     </div>
                   </div>
                   <div>
                     <p
-                      className="py-3 font-semibold text-[#962C52]"
+                      className="py-3 font-semibold text-[#FFD700]"
                       onClick={() => {
                         if (pathname == "/") {
                           scrollToRef(aboutMeRef);
@@ -251,20 +251,20 @@ const Header = () => {
                         }
                       }}
                     >
-                      Обо мне
+                      Acerca de mí
                     </p>
                   </div>
                 </div>
                 <div className="flex flex-col gap-1 ">
                   <div className="flex gap-1">
                     <a
-                      href="mailto:oa.drapeko@gmail.com"
+                      href="mailto:estudiorampazzo@gmail.com"
                       className="bg-[#F8F6F7] py-3 w-full justify-center flex rounded-md"
                     >
                       <Image src={IconMail} alt="mail" width={24} />
                     </a>
                     <a
-                      href="tel:+79233413266"
+                      href="tel:+5491121914149"
                       className="bg-[#F8F6F7] py-3 w-full justify-center flex rounded-md"
                     >
                       <Image src={IconPhone} alt="mail" width={24} />
@@ -286,7 +286,7 @@ const Header = () => {
               </div>
               <div
                 onClick={() => setisClick(!isClick)}
-                className="bg-[#1B1743] h-screen opacity-35"
+                className="bg-[#FFD700] h-screen opacity-35"
               ></div>
             </div>
           ) : (
@@ -304,10 +304,10 @@ const Header = () => {
                     setisDropdown(!isDropdown);
                   }}
                   className={`md:px-[0.62vw] md:py-[1.11vh] cursor-pointer flex gap-[0.62vw] rounded-md transition-all hover:bg-[#F8F6F7] ${
-                    isDropdown == false ? "" : " text-[#962C52]"
+                    isDropdown == false ? "" : " text-[#FFD700]"
                   }`}
                 >
-                  <p className={``}>Услуги</p>
+                  <p className={``}>Servicios</p>
                   {isDropdown == false ? (
                     <Image
                       src={IconChevronDown}
@@ -331,54 +331,52 @@ const Header = () => {
                 >
                   <div className="flex flex-col gap-[0.37vh]">
                     <Link
-                      href="/corporation"
+                      href="/jubilaciones"
                       onClick={() => setisDropdown(!isDropdown)}
                       className="md:py-[1.11vh] md:px-[0.62vw] md:text-[1.48vh] md:leading-[2.22vh] hover:bg-[#F8F6F7] rounded-md text-[#962C52] font-semibold transition-all"
                     >
-                      Юридическим&nbsp;лицам
+                      Jubilaciones
                     </Link>
-                    <div className="flex flex-col gap-[1.11vh] md:text-[1.48vh] md:leading-[2.22vh] text-[#1B1743] font-medium">
+                    {/* <div className="flex flex-col gap-[1.11vh] md:text-[1.48vh] md:leading-[2.22vh] text-[#1B1743] font-medium">
                       <Link
                         href="/outsourcing"
                         onClick={() => setisDropdown(!isDropdown)}
-                        className="hover:text-[#B65D7D] transition-all"
+                        className="hover:text-[black] transition-all"
                       >
-                        Юридическое&nbsp;сопровождение&nbsp;бизнеса (аутсорсинг)
+                        Soporte legal de negocios (outsourcing)
                       </Link>
                       <Link
                         href="/mediation"
                         onClick={() => setisDropdown(!isDropdown)}
                         className="hover:text-[#B65D7D] transition-all"
                       >
-                        Разрешение споров и медиация
+                        Resolución de disputas y mediación
+                      </Link>
+                    </div> */}
+                  </div>
+                  <div className="flex flex-col gap-[0.37vh]">
+                    <div className="flex flex-col gap-[1.11vh] md:text-[1.48vh] md:leading-[2.22vh] text-[#1B1743] font-medium">
+                      <Link
+                        href="/laboral"
+                        onClick={() => setisDropdown(!isDropdown)}
+                        className="hover:text-[#B65D7D] transition-all"
+                      >
+                                            <p className="md:py-[1.11vh] md:px-[0.62vw] md:text-[1.48vh] md:leading-[2.22vh] hover:bg-[#F8F6F7] rounded-md text-[#962C52] font-semibold transition-all">
+                      Laboral
+                    </p>
                       </Link>
                     </div>
                   </div>
                   <div className="flex flex-col gap-[0.37vh]">
-                    <p className="md:py-[1.11vh] md:px-[0.62vw]  md:text-[1.48vh] md:leading-[2.22vh] text-[#962C52] font-semibold">
-                      Физическим лицам
-                    </p>
                     <div className="flex flex-col gap-[1.11vh] md:text-[1.48vh] md:leading-[2.22vh] text-[#1B1743] font-medium">
                       <Link
-                        href="/support"
+                        href="/servicios"
                         onClick={() => setisDropdown(!isDropdown)}
                         className="hover:text-[#B65D7D] transition-all"
                       >
-                        Юридические услуги для частных лиц
-                      </Link>
-                    </div>
-                  </div>
-                  <div className="flex flex-col gap-[0.37vh]">
-                    <p className="md:py-[1.11vh] md:px-[0.62vw]  md:text-[1.48vh] md:leading-[2.22vh] text-[#962C52] font-semibold">
-                      Банкротство
+                                            <p className="md:py-[1.11vh] md:px-[0.62vw] md:text-[1.48vh] md:leading-[2.22vh] hover:bg-[#F8F6F7] rounded-md text-[#962C52] font-semibold transition-all">
+                      Servicios
                     </p>
-                    <div className="flex flex-col gap-[1.11vh] md:text-[1.48vh] md:leading-[2.22vh] text-[#1B1743] font-medium">
-                      <Link
-                        href="/bankruptcy"
-                        onClick={() => setisDropdown(!isDropdown)}
-                        className="hover:text-[#B65D7D] transition-all"
-                      >
-                        Юридическое сопровождение банкротства
                       </Link>
                     </div>
                   </div>
