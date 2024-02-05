@@ -124,7 +124,7 @@ const Main = () => {
               src={PicMain}
               alt="main portrait"
               width={600}
-              className="w-full h-[264px] md:w-[20.72vw] md:h-[61.11vh] object-cover rounded-md mx-auto md:hidden"
+              className="w-full h-[264px] md:w-[20.72vw] md:h-[61.11vh] object-cover rounded-md mx-auto"
               style={{ objectPosition: 'center bottom' }}
             />
 
