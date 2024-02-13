@@ -2,6 +2,8 @@ import Link from "next/link";
 import Image from "next/image";
 import React from "react";
 import FeedbackForm from "../components/FeedbackForm";
+import CalendlyEmbed from "../components/CalendlyEmbed";
+
 
 import { evolventa } from "../fonts";
 import { montserrat } from "../fonts";
@@ -175,6 +177,11 @@ const outsourcing = () => {
           </div>
         </div>
       </section>
+
+      <div>
+      <CalendlyEmbed />
+    </div>
+
       <FeedbackForm />
     </main>
   );

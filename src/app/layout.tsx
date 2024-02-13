@@ -18,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="ru">
+    <html lang="es">
       <body className={`select-none ${evolventa.className} h-screen`}>
         <Toaster position="bottom-right" />
         <Header />
