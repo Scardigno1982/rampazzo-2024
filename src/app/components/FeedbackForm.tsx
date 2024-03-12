@@ -100,7 +100,7 @@ const FeedbackForm = () => {
             <input
               id="usernphoneInput"
               type="text"
-              placeholder="+7 999 999 99 99"
+              placeholder="+54 999 9999"
               required
               className="px-5 py-3 text-sm leading-5 md:px-[1.04vw] md:py-[1.11vh] rounded-md text-[#1B1743] text-[1.48vh] md:placeholder:text-[1.48vh] placeholder:leading-[2.22vh] placeholder:font-medium placeholder:text-[#D3D3E3]"
               {...register("phone")}

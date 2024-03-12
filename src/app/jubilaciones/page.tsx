@@ -68,12 +68,12 @@ const outsourcing = () => {
         </div>
         <div className="col-span-2 md:relative hidden md:block">
           <div className="absolute left-[-2.55vw]">
-            <Image
+            {/* <Image
               src={PicAdvantages}
               alt="jubilacion"
               height={1000}
               className="md:h-[46.48vh] md:w-[27.13vw] object-contain"
-            />
+            /> */}
           </div>
         </div>
         <div className={`md:col-span-4 ${montserrat.className}`}>

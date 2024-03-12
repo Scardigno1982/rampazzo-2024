@@ -78,7 +78,7 @@ const Header = () => {
     setisClick(!isClick);
   };
   const socialArray = [
-    { src: IconTelegram, alt: "Telegram", link: "#" },
+    // { src: IconTelegram, alt: "Telegram", link: "#" },
     { src: IconWhatsapp, alt: "Whatsapp", link: "https://api.whatsapp.com/send?phone=+5491121914149&text=Contacto%20WEB%20-%20Estoy%20Interesado%20en%20las%20jubilaciones%20y%20reajustes" },
   ];
   const menuArray = [

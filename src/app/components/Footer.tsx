@@ -42,7 +42,7 @@ const Footer = () => {
     { title: "Servicios", link: "/servicio" },
   ];
   const socialArray = [
-    { src: IconTelegram, alt: "Telegram", link: "#" },
+    // { src: IconTelegram, alt: "Telegram", link: "#" },
     { src: IconWhatsapp, alt: "Whatsapp", link: "https://api.whatsapp.com/send?phone=+5491121914149&text=Contacto%20WEB%20-%20Estoy%20Interesado%20en%20las%20jubilaciones%20y%20reajustes" },
   ];
   return (
@@ -60,13 +60,13 @@ const Footer = () => {
             </div>
           </div>
           <div className="md:pb-[2.59vh] w-fit">
-            <Link href="/privacy_policy" className="cursor-pointer">
+            {/* <Link href="/privacy_policy" className="cursor-pointer">
               <p
                 className={`md:text-[1.48vh] md:leading-[2.22vh] ${montserrat.className} font-medium text-[#807D9B]`}
               >
                   política de privacidad
               </p>
-            </Link>
+            </Link> */}
           </div>
 
           <p

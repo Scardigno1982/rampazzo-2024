@@ -3,6 +3,7 @@ import { Resend } from 'resend';
 import * as React from 'react'
 import { NextRequest } from 'next/server';
 
+
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(req: NextRequest) {

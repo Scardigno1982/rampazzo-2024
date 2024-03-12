@@ -5,6 +5,7 @@ import PicClient01 from "../../../public/pics/picClient01.webp";
 import PicClient02 from "../../../public/pics/picClient02.webp";
 import PicClient03 from "../../../public/pics/picClient03.webp";
 import PicClient04 from "../../../public/pics/picClient04.webp";
+import PicClient05 from "../../../public/pics/picClient05.webp";
 
 
 const clientArray = [
@@ -12,6 +13,7 @@ const clientArray = [
   { src: PicClient02 },
   { src: PicClient03 },
   { src: PicClient04 },
+  { src: PicClient05 },
 ];
 
 const Clients = () => {

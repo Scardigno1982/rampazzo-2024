@@ -40,12 +40,12 @@ const support = () => {
         </div>
         <div className="md:col-span-2 md:relative hidden md:block">
           <div className=" absolute left-[-8.12vw]">
-            <Image
+            {/* <Image
               src={PicSupport}
               alt="Bunkruptcy"
               height={1000}
               className="md:h-[42.87vh] md:w-[32.29vw] object-cover"
-            />
+            /> */}
           </div>
         </div>
         <div className={`md:col-span-4 ${montserrat.className}`}>

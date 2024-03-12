@@ -40,12 +40,12 @@ const bankruptcy = () => {
         </div>
         <div className="md:col-span-2 md:relative hidden md:block">
           <div className="absolute left-[-7.08vw] right-[-0.83vw]">
-            <Image
+            {/* <Image
               src={PicBankruptcy}
               alt="Bunkruptcy"
               height={1000}
               className="md:h-[57.68vh] md:w-[32.29vw] object-contain"
-            />
+            /> */}
           </div>
         </div>
         <div className={`md:col-span-4 ${montserrat.className}`}>
