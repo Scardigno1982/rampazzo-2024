@@ -179,7 +179,7 @@ const outsourcing = () => {
       </section>
 
       <div>
-      <CalendlyEmbed />
+      {/* <CalendlyEmbed /> */}
     </div>
 
       <FeedbackForm />
