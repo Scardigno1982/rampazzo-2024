@@ -7,10 +7,13 @@ import { Toaster } from "react-hot-toast";
 import { evolventa } from "./fonts";
 
 
+
 export const metadata: Metadata = {
   title: "Estudio Rampazzo",
   description: "Toda mi experiencia y profesionalismo aplicado a tu caso. Tengo más de 3 años ayudando a adultos mayores difundiendo sus derechos en los principales canales de TV. Voy a ser tu asesor de confianza.",
 };
+
+
 
 export default function RootLayout({
   children,
@@ -23,6 +26,7 @@ export default function RootLayout({
         <Toaster position="bottom-right" />
         <Header />
         {children}
+
         <Footer />
       </body>
     </html>

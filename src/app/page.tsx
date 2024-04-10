@@ -5,6 +5,8 @@ import About from "./components/About";
 import Clients from "./components/Clients";
 import FeedbackForm from "./components/FeedbackForm";
 
+
+
 export default function Home() {
   return (
     <main className="">
@@ -15,6 +17,8 @@ export default function Home() {
       <Clients />
       <FeedbackForm />
       <div className="md:h-[11.11vh] bg-gradient-to-r from-[#EBECF1] to-[#FCFCFD]"></div>
+
+
     </main>
   );
 }

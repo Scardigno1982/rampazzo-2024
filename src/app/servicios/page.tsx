@@ -1,7 +1,11 @@
+"use client";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import FeedbackForm from "../components/FeedbackForm";
+
+import { FloatingWhatsApp } from 'react-floating-whatsapp';
+
 
 import { montserrat } from "../fonts";
 import { evolventa } from "../fonts";
@@ -229,6 +233,20 @@ const bankruptcy = () => {
         </div>
       </div>
       <FeedbackForm />
+
+      <FloatingWhatsApp
+      phoneNumber="+5491121914149" // Número de teléfono en formato internacional
+      accountName="Estudio Rampazzo" // Nombre de usuario de la cuenta
+      avatar={"/pics/logo.jpg"} // Opcional: URL o path de la imagen del avatar
+      statusMessage="Típicamente responde en 1 hora" // Opcional: Mensaje de estado
+      chatMessage="¡Hola! 👋 ¿En qué podemos ayudarte hoy?" // Opcional: Mensaje inicial en el chat
+      darkMode={false} // Opcional: Habilita el modo oscuro
+      allowClickAway={true} // Opcional: Cierra el chat al hacer clic fuera
+      allowEsc={true} // Opcional: Cierra el chat al presionar Esc
+      notification={true} // Opcional: Habilita notificaciones
+      notificationDelay={60} // Opcional: Retraso entre notificaciones en segundos
+      notificationSound={false} // Opcional: Habilita sonido de notificaciones
+      />
     </main>
   );
 };

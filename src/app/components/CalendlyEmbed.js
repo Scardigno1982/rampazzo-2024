@@ -5,7 +5,7 @@ const App = () => {
     return (
       <div className="App">
         <InlineWidget 
-                url="https://calendly.com/sergioscardigno82/30min" />
+                url="https://calendly.com/estudiorampazzof/30min" />
       </div>
     );
   };
