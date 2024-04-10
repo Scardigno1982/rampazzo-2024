@@ -206,8 +206,8 @@ const Main = () => {
       statusMessage="Típicamente responde en 1 hora" // Opcional: Mensaje de estado
       chatMessage="¡Hola! 👋 ¿En qué podemos ayudarte hoy?" // Opcional: Mensaje inicial en el chat
       darkMode={false} // Opcional: Habilita el modo oscuro
-      allowClickAway={true} // Opcional: Cierra el chat al hacer clic fuera
-      allowEsc={true} // Opcional: Cierra el chat al presionar Esc
+      allowClickAway={false} // Opcional: Cierra el chat al hacer clic fuera
+      allowEsc={false} // Opcional: Cierra el chat al presionar Esc
       notification={true} // Opcional: Habilita notificaciones
       notificationDelay={60} // Opcional: Retraso entre notificaciones en segundos
       notificationSound={false} // Opcional: Habilita sonido de notificaciones
