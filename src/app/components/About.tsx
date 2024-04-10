@@ -32,15 +32,13 @@ const About = () => {
            ¿Quien es Fernando Rampazzo?
           </h1>
           <p className="md:pb-[4.44vh] pb-7">
-          Fernando Rampazzo, es abogado <span className="md:text-[1.66vh] text-base leading-[22px] font-bold">
-              {" "}
-              especialista en jubilaciones
-            </span>, pensiones y reajuste de haberes. Asesora a adultos mayores para que logren su beneficio 
-          previsional y perciban el haber que realmente le corresponde a través de un <span className="md:text-[1.66vh] text-base leading-[22px] font-bold">
-              {" "}
-              juicio de reajuste
-            </span>. Desde hace cuatro años se encarga de difundir los 
-          derechos de los jubilados en los principales medios de comunicación del país.
+          Fernando Rampazzo es abogado especialista en <span className="md:text-[1.66vh] text-base leading-[22px] font-bold">Derecho Provisional y laboral</span>. Asesora a adultos mayores y trabajadores, 
+          con mas de 10 años de trayectoria.
+
+          Difunde los derechos de los jubilados y pensionados en los medios de comunicacion Nacionales.
+
+          Recibido de la <span className="md:text-[1.66vh] text-base leading-[22px] font-bold">Universidad Nacional De la Plata</span>, dicta cursos a traves de sus redes sociales, como tambien en <span className="md:text-[1.66vh] text-base leading-[22px] font-bold">Universidades y Colegio de Abogados.</span>
+
           </p>
 
           {/* <p className="md:text-[1.66vh] text-base leading-[22px] md:leading-[2.22vh]  font-bold pb-2 md:pb-[0.74vh]">

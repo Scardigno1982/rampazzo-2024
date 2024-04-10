@@ -56,9 +56,7 @@ const support = () => {
               Accidentes laborales
             </h1>
             <p className="mx-4 md:mx-0 text-sm leading-4 md:pb-[7.4vh] pb-[60px] md:text-[1.48vh]  md:leading-[2.22vh] font-medium">
-            Están considerados accidentes laborales a cualquier hecho inesperado y violento que se genere en el puesto de trabajo o en el trayecto del domicilio del trabajador a su lugar de trabajo.  Se debe comunicar el suceso a la aseguradora de riesgo del trabajo A.R.T. contratada por el empleador, para que tome conocimiento del hecho. Inmediatamente otorgue las prestaciones médicas, pecuniarias, necesarias y correspondientes.
-            Cuando el ART da el alta, se debe evaluar las secuelas físicas o psicologías, para fijar un porcentaje de incapacidad del trabajador o trabajadora y según lo que se determine abonar la indemnización correspondiente.
-            Algunas veces las ART dan el alta médica, sin establecer una incapacidad laboral, otorgando un porcentaje mucho menor al real. Ante esta situación mis colaboradores inician un reclamo laboral a la ART, para lograr que reconozcan la incapacidad correspondiente y el cobro de la indemnización              
+            Nuestro equipo de abogados especialistas en derecho laboral está comprometido en proteger sus derechos y obtener la compensación justa que merece. Con años de experiencia y un enfoque centrado en el cliente, nos dedicamos a brindar asesoramiento legal integral y exhibición efectiva para ayudarte a superar las consecuencias de un accidente de trabajo.Nos encargaremos de presentar y gestionar su reclamo ante la Superintendencia de Riesgos del Trabajo (SRT) y/o la ART correspondiente.           
             
             <br className="hidden md:block" />
             <br className="hidden md:block" />
@@ -70,19 +68,8 @@ const support = () => {
               Despidos
             </h1>
 
-            Es una situación traumática que sufren los trabajadores y trabajadoras, cuando el empleador los desvincula de su puesto laboral. Encuadrándolo en un despido laboral.
-
-            Me echaron del trabajo ¿qué hago? Quieren que firme y envíe un telegrama, que tengo ¿qué hacer antes de enviar el telegrama?
-
-            Son preguntas que me hacen a diario y brindo información legal necesaria en cada caso.
-
-            Colaboran en mi estudio, abogados especializados en despido laboral.
-
-            Te invito a que te pongas en contacto, tomo casos de TODO EL PAIS.
-
-            Tenes derechos ante un despido laboral en “blanco” o si trabajabas en “negro”. Te responderé rápidamente una respuesta que se ajusta a tu caso en particular.
-
-            Tus derechos son importantes, tenes que conocerlos y hacerlos valer.
+            Juicios laborales sin costo para el trabajador
+            Para poder permitirle el acceso a la justicia, y obtener así la defensa de sus derechos laborales pese a no contar con recursos, asumimos la defensa en juicio sin costos iniciales ya que solo se cobra por resultado  Esto demuestra el grado de compromiso con el cliente.
 
             <br className="hidden md:block" />
             <br className="hidden md:block" />
@@ -94,23 +81,7 @@ const support = () => {
               Trabajo en negro
             </h1>
 
-            Existen leyes que amparan y protegen a los trabajadores que se encuentra en negro o en la clandestinidad.
-
-            La ley Nacional de Empleo la 24.013 y la ley 25.323.
-
-            Ambas leyes protegen y crean un marco indemnizatorio para los trabajadores y trabajadoras que acrediten en un proceso legal haber presentado tareas en esta situación.
-
-            Para poder reclamar en base a estas disposiciones, es necesario enviar una serie de telegramas efectuando una serie de denuncias y aclaraciones.
-
-            Mis colaboradores están preparados y listos para llevar adelante este tipo de reclamos.
-
-            Este tipo de situaciones de indemnización por trabajo en “negro” o clandestino, suelen agregar a las que corresponde a cualquier trabajador ordinario, en algunos casos las sumas adeudadas suelen ser de hasta tres veces mayor.
-
-            Es muy importante aclarar, que cualquier despido laboral. Debe asesorarte extrajudicial o judicialmente un abogado especialista en despidos.
-
-            Recibirás el monto indemnizatorio que te corresponde, NO FIRMES acuerdos propuestos por el empleador sin que un abogado asesor te acompañe o patrocine en el proceso.
-
-            <br className="hidden md:block" />
+            Existen leyes que amparan a los trabajadores que se encuentran  en negro o clandestinidad, las cuales crean un marco indemnizatorio para los trabajadores y trabajadores que acrediten en un proceso legal haber prestado tareas en esta situacion. Para poder reclamar debes contar con  con un abogado especializado.   <br className="hidden md:block" />
             <br className="hidden md:block" />
             <br className="hidden md:block" />
             
@@ -119,18 +90,7 @@ const support = () => {
             >
               Enfermedades laborales
             </h1>
-            La enfermedad laboral sucede cuando el trabajador contrae una enfermedad a causa de su lugar de trabajo o por el tipo de trabajo que desarrolla.
-
-            Existen muchas enfermedades profesionales que se identifican, en cuadros clínicos y están en una lista.
-
-            Todas las enfermedades que contrae el trabajador por exposición o por las actividades que realiza se encuentran en esta lista.
-
-            Los factores presentes en el lugar de trabajo, que pueden afectar a todo ser humano, como la temperatura, la humedad, iluminación, ventilación, hasta la presencia de ruidos, sustancias químicas, cargas pesadas entre muchas otras.
-
-            Si la enfermedad que contra el trabajador no se encuentra en el listado y se sospecha que puede ser producida por el puesto de trabajo, se pueden iniciar acciones legales a la ART.
-
-            En el caso que la aseguradora desconozca o rechace la denuncia, se puede iniciar un juicio laboral a la ART para que reconozcan la enfermedad laboral y que el trabajador pueda cobrar la indemnización correspondiente.
-
+            La enfermedad laboral  sucede cuando un trabajador contrae una enfermedad a raiz de su lugar de trabajo o el tipo de actividad que desarrolla. Por las cuales se pueden iniciar acciones legales a la ART.
             </p>
             
             

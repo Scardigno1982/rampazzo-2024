@@ -19,7 +19,7 @@ import Link from "next/link";
 export const feedbackRef: RefObject<HTMLDivElement> = createRef();
 
 const socialArray = [
-  { src: IconTelegram, alt: "Telegram", link: "https://t.me/olga_drapeko" },
+  // { src: IconTelegram, alt: "Telegram", link: "https://t.me/olga_drapeko" },
   { src: IconWhatsapp, alt: "Whatsapp", link: "https://wa.me/79233413266" },
 ];
 type FormInput = {
@@ -123,13 +123,13 @@ const FeedbackForm = () => {
           } ${"bg-gradient-to-r from-[#EBECF1] to-[#FCFCFD] md:from-transparent md:to-transparent lg:from-transparent lg:to-transparent"}`}
         >
           <div className="md:text-[1.48vh] text-base leading-6 md:leading-[2.22vh] pb-5 md:pb-[1.85vh] font-semibold">
-            <a href="mailto:oa.drapeko@gmail.com">estudiorampazzo@gmail.com</a>
+            <a href="mailto:estudiorampazzof@gmail.com">estudiorampazzof@gmail.com</a>
           </div>
-          <div
+          {/* <div
             className={`text-[24px] md:text-[3.33vh] leading-[26px] md:leading-[3.51vh] pb-5 md:pb-[1.85vh] font-bold ${evolventa.className}`}
           >
             <a href="tel:+541147091266">+54 11 4709-1266</a>
-          </div>
+          </div> */}
 
           <div className="flex md:gap-x-[0.41vw] gap-x-2 items-center pb-7 md:pb-[5.55vh]">
             {socialArray.map((item, index) => (

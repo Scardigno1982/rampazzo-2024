@@ -55,11 +55,9 @@ const bankruptcy = () => {
             Sucesiones
           </h1>
           <p className="md:pb-[5.55vh] pb-[60px] md:text-[1.48vh] text-sm leading-5 md:leading-[2.22vh] font-medium">
-          Brindamos la posibilidad de iniciar el tramite sucesorio de forma simple, rápida y responsable. Podemos lograr que inicie el tramite sucesorio en cualquier lugar de la Argentina.
-
-          Cuento con abogados especialistas en el tema que se pondrán en contacto con usted. Para asesorarlo y proseguir con todos los tramites correspondientes como tramites impositivos, administrativos o de sociedades, o sobre la planificación sucesoria.
-
-          Mis colaboradores son prácticos y resuelven todas tus dudas para que evites todo tipo de problemas.
+          Nuestro estudio brinda un servicio rápido y flexible para dar inicio al trámite sucesorio.
+          Según su preferencia, podrá coordinar una entrevista personal con uno de nuestros abogados o ser asesorado telefónicamente sobre cualquier duda respecto al juicio sucesorio.
+          Luego de interiorizarnos sobre las particularidades de su caso, le enviaremos un formulario con la documentación necesaria para dar comienzo al trámite.
           </p>
           <br className="hidden md:block" />
           

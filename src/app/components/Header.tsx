@@ -19,8 +19,8 @@ import { aboutMeRef } from "./About";
 const Header = () => {
   const router = useRouter();
   const pathname = usePathname();
-  const contactPhone = "+5491121914149";
-  const contactEmail = "estudiorampazzo@gmail.com";
+  // const contactPhone = "+5491121914149";
+  // const contactEmail = "estudiorampazzo@gmail.com";
 
   const [isDropdown, setisDropdown] = useState(false);
   const [isClick, setisClick] = useState(false);
@@ -422,8 +422,8 @@ const Header = () => {
             </div>
             <div className="flex md:gap-x-[2.5vw] md:py-[2.59vh]">
               <div className=" text-end select-text">
-                <p className="md:pb-[1.11vh]">{contactEmail}</p>
-                <p>{contactPhone}</p>
+                {/* <p className="md:pb-[1.11vh]">{contactEmail}</p> */}
+                {/* <p>{contactPhone}</p> */}
               </div>
               <div className="flex md:gap-x-[0.41vw] items-center ">
                 {socialArray.map((item, index) => (

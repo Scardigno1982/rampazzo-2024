@@ -39,7 +39,7 @@ const Footer = () => {
   const services = [
     { title: "Jubilaciones", link: "/jubilaciones" },
     { title: "Laboral", link: "/laboral" },
-    { title: "Servicios", link: "/servicio" },
+    { title: "Servicios", link: "/servicios" },
   ];
   const socialArray = [
     // { src: IconTelegram, alt: "Telegram", link: "#" },
@@ -112,11 +112,11 @@ const Footer = () => {
           <div className="md:text-[1.48vh] text-[white] text-base leading-6 md:leading-[2.22vh] pb-5 md:pb-[1.85vh] font-semibold select-text">
             <a href="mailto:estudiorampazzo@gmail.com">estudiorampazzo@gmail.com</a>
           </div>
-          <div
+          {/* <div
             className={`md:text-[3.33vh] text-[white] text-[24px] leading-[26px] md:leading-[3.51vh] pb-5 md:pb-[1.85vh] font-bold ${evolventa.className} select-text`}
           >
             <a href="tel:+5491121914149">+549 11 2191 4149</a>
-          </div>
+          </div> */}
 
           <div className="flex gap-x-2 md:gap-x-[0.41vw] items-center pb-6 md:pb-[5.55vh]">
             {socialArray.map((item, index) => (

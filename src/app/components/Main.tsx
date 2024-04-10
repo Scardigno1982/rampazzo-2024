@@ -90,23 +90,23 @@ const Main = () => {
       services: [
         {
           title: "Sucesiones",
-          link: "/servicio",
+          link: "/servicios",
         },
         {
           title: "Divorcios",
-          link: "/servicio",
+          link: "/servicios",
         },
         {
           title: "Defensas Penales",
-          link: "/servicio",
+          link: "/servicios",
         },
         {
           title: "Asesorammiento a empresas / Constratos",
-          link: "/servicio",
+          link: "/servicios",
         },
         {
           title: "Accidente de Transito",
-          link: "/servicio",
+          link: "/servicios",
         },
       ],
     },

@@ -13,23 +13,6 @@ import IconConvenience from "../../../public/icons/iconConvenience.svg";
 import IconExpert from "../../../public/icons/iconExpert.svg";
 import IconFlexability from "../../../public/icons/iconFlexability.svg";
 
-const advantagesArray = [
-  {
-    src: IconConvenience,
-    title: "Conveniencia",
-    text: "Cooperación sin contratación, informes, pagos obligatorios y deducciones.",
-  },
-  {
-    src: IconExpert,
-    title: "Enfoque experto",
-    text: "Amplia experiencia como abogado en controversias derivadas de diversas áreas del derecho.",
-  },
-  {
-    src: IconFlexability,
-    title: "Flexibilidad",
-    text: "Proceso menos formalizado sin personal ni trabajo administrativo que consuma mucho tiempo.",
-  },
-];
 
 const outsourcing = () => {
   return (
@@ -135,28 +118,6 @@ const outsourcing = () => {
                   Trabajas para Provincia de Buenos Aires, nos encargamos de realizar tu jubilación o reconocimiento de servicios.
                   </li>
                 </ul>
-              </div>
-              <div
-                className={`md:col-span-2 flex flex-col gap-y-7 md:gap-y-[2.59vh]`}
-              >
-                {advantagesArray.map((item, index) => (
-                  <div key={index}>
-                    <div className="flex gap-3 pb-2 leading-[22px] md:gap-x-[0.62vw] md:pb-[1.11vh] md:leading-[2.22vh]">
-                      <Image
-                        src={item.src}
-                        alt={item.title}
-                        width={40}
-                        className={`md:h-[3.70vh] md:w-[2.08vw] object-contain`}
-                      />
-                      <h1 className="text-base md:text-[1.66vh] font-bold flex items-center">
-                        {item.title}
-                      </h1>
-                    </div>
-                    <p className="text-sm md:text-[1.48vh] font-medium">
-                      {item.text}
-                    </p>
-                  </div>
-                ))}
               </div>
             </div>
             <div
