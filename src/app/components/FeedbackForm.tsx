@@ -12,15 +12,18 @@ import { evolventa } from "../fonts";
 import IconTelegram from "../../../public/icons/iconTelegram.svg";
 import IconWhatsapp from "../../../public/icons/iconWhatsapp.svg";
 import IconPin from "../../../public/icons/iconPin.svg";
-import PicFeedback from "../../../public/pics/picFeedback.jpg";
-import PicFeedbackClean from "../../../public/pics/picFeedbackClean.jpg";
+
+
+import PicFeedback from "../../../public/pics/footer-inicio.jpg";
+import PicFeedbackClean from "../../../public/pics/footer-inicio.jpg";
+
 import Link from "next/link";
 
 export const feedbackRef: RefObject<HTMLDivElement> = createRef();
 
 const socialArray = [
   // { src: IconTelegram, alt: "Telegram", link: "https://t.me/olga_drapeko" },
-  { src: IconWhatsapp, alt: "Whatsapp", link: "https://wa.me/79233413266" },
+  { src: IconWhatsapp, alt: "Whatsapp", link: "https://api.whatsapp.com/send?phone=+5491121914149&text=Contacto%20WEB%20-%20Estoy%20Interesado%20en%20las%20jubilaciones%20y%20reajustes" },
 ];
 type FormInput = {
   name: string;
@@ -167,7 +170,7 @@ const FeedbackForm = () => {
         </div>
         {pathname == "/" ? (
           <div className="hidden md:block col-span-2 relative">
-            <div className="z-[22] absolute md:top-[-9.25vh]">
+            <div className="z-[22] absolute md:top-[-9.25vh] py-4">
               <Image
                 src={PicFeedback}
                 alt="feedback full portrait"
@@ -179,7 +182,7 @@ const FeedbackForm = () => {
           </div>
         ) : (
           <div className="hidden md:block col-span-2 relative">
-            <div className="absolute z-[22] md:top-[-6.01vh] md:left-[3.6vw]">
+            <div className="absolute z-[22] md:top-[-6.01vh] md:left-[3.6vw] py-4">
               <Image
                 src={PicFeedbackClean}
                 alt="feedback clean portrait"

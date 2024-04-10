@@ -11,7 +11,7 @@ import { FloatingWhatsApp } from 'react-floating-whatsapp';
 
 
 import { montserrat } from "../fonts";
-import PicMain from "../../../public/pics/picMain.jpg";
+import PicMain from "../../../public/pics/Inicio.jpg";
 import IconArrow from "../../../public/icons/iconArrowRight.svg";
 
 
