@@ -220,7 +220,7 @@ const bankruptcy = () => {
       <div
         className={` block md:hidden h-fit mb-[60px] bg-[#F8F6F7] border-[1px] border-[#F0F0F5]  rounded-md shadow-md ${montserrat.className}`}
       >
-        <div className="py-4 px-4">
+        {/* <div className="py-4 px-4">
           <div className=" flex items-center text-[#962C52] pb-2">
             <p className="text-base leading-[22px] font-bold">
               от 20 000 ₽&nbsp;
@@ -230,7 +230,7 @@ const bankruptcy = () => {
           <p className=" text-sm leading-5 font-normal">
             Стоимость определяется индивидуально в каждой ситуации
           </p>
-        </div>
+        </div> */}
       </div>
       <FeedbackForm />
 
