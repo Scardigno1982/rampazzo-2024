@@ -32,7 +32,7 @@ const Main = () => {
     {
       title: "Jubilaciones",
       description:
-        "Tengo más de 10 años ayudando a argentinos y argentinas, logrando que consigan jubilaciones y pensiones",
+        "Tengo más de 15 años ayudando a argentinos y argentinas, logrando que consigan jubilaciones y pensiones",
       services: [
         {
           title: "Jubilaciones",
