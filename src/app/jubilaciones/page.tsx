@@ -129,7 +129,7 @@ const outsourcing = () => {
             >
               <div className="pb-2 md:pb-[1.11vh] flex items-center text-[#962C52]">
                 <p className="text-lg leading-6 md:text-[1.66vh] md:leading-[2.22vh] font-bold">
-                Más de 10 años&nbsp;
+                Más de 15 años&nbsp;
                 </p>
                 <p className="text-sm leading-5 md:text-[1.29vh] md:leading-[1.85vh] font-normal">
                   ayudando a argentinos y argentinas, logrando que consigan jubilaciones y pensiones
