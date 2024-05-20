@@ -72,7 +72,7 @@ const outsourcing = () => {
               
             </h1>
             <p className="mx-3 md:mx-0 text-sm leading-5 pb-10 md:pb-[5.55vh] md:text-[1.48vh] md:leading-[2.22vh] font-medium">
-            Tengo más de 10 años ayudando a argentinos y argentinas,
+            Tengo más de 15 años ayudando a argentinos y argentinas,
             <br className="hidden md:block" /> logrando que consigan jubilaciones y pensiones
             </p>
             <div className="mx-3 md:mx-0 grid md:grid-cols-4 md:gap-x-[1.25vw] pb-10 md:pb-[4.44vh]">
