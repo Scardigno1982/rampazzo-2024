@@ -33,7 +33,7 @@ const About = () => {
           </h1>
           <p className="md:pb-[4.44vh] pb-7">
           Fernando Rampazzo es abogado especialista en <span className="md:text-[1.66vh] text-base leading-[22px] font-bold">Derecho Provisional y laboral</span>. Asesora a adultos mayores y trabajadores, 
-          con mas de 10 años de trayectoria.
+          con mas de 15 años de trayectoria.
 
           Difunde los derechos de los jubilados y pensionados en los medios de comunicacion Nacionales.
 
